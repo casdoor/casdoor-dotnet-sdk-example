@@ -30,11 +30,11 @@ var httpClient = new HttpClient();
 var options = new CasdoorOptions
 {
     Endpoint = "https://door.casdoor.com",
-    OrganizationName = "build-in",
+    OrganizationName = "casbin",
     ApplicationName = "app-build-in",
     ApplicationType = "native",
-    ClientId = "541738959670d221d59d",
-    ClientSecret = "66863369a64a5863827cf949bab70ed560ba24bf",
+    ClientId = "b800a86702dd4d29ec4d",
+    ClientSecret = "1219843a8db4695155699be3a67f10796f2ec1d5",
     CallbackPath = "/callback",
     RequireHttpsMetadata = true,
     Scope = "openid profile email"
@@ -70,7 +70,7 @@ cd casdoor-dotnet-sdk-example
 dotnet run --project MvcApp
 ```
 
-The default settings use the public demo Casdoor and Casnode configuration. Now Casdoor is listening on `http://localhost:3000`, and you can open your browser and visit it.
+The default settings use the public demo Casdoor and Casnode configuration. Now Casdoor is listening on `http://localhost:5000` and `https://localhost:5001`, and you can open your browser and visit any of them.
 
 ![mvcapp1](docs/assets/mvcapp-login.png)
 
@@ -84,10 +84,10 @@ You can change the settings in the `appsettings.json` file according to the depl
 "Casdoor": {
     "Endpoint": "https://door.casdoor.com",
     "OrganizationName": "casbin",
-    "ApplicationName": "app-casnode",
+    "ApplicationName": "app-example",
     "ApplicationType": "webapp",
-    "ClientId": "014ae4bd048734ca2dea",
-    "ClientSecret": "f26a4115725867b7bb7b668c81e1f8f7fae1544d",
+    "ClientId": "b800a86702dd4d29ec4d",
+    "ClientSecret": "1219843a8db4695155699be3a67f10796f2ec1d5",
     "CallbackPath": "/callback",
     "RequireHttpsMetadata": false
 },
@@ -106,7 +106,7 @@ The meanings of some fields are explained as follows:
 | CallbackPath         | No   | The callback path that the client will be redirected to after the user has authenticated. Default is "/casdoor/signin-callback". |
 | RequireHttpsMetadata | No   | Whether requires https for Casdoor endpoint.                 |
 
-In addition, some launch settings are placed in the `Properties/launchSettings.json` file, such as the listening URL `http://localhost:3000`, to facilitate your use of this sample. This file is not necessary.
+In addition, some launch settings are placed in the `Properties/launchSettings.json` file, such as the listening URLs `http://localhost:5000;https://localhost:5001`, to facilitate your use of this sample. This file is not necessary.
 
 For more information, refer to https://github.com/casdoor/casdoor-dotnet-sdk/blob/master/README.md.
 
