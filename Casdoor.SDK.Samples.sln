@@ -1,8 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApp", "MvcApp\MvcApp.csproj", "{BBE14F00-34BC-4D12-8D61-3EB9D7B631AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcApp", "MvcApp\MvcApp.csproj", "{BBE14F00-34BC-4D12-8D61-3EB9D7B631AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{8A1E8031-9518-4AB3-BB3F-825B9F68D349}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{8A1E8031-9518-4AB3-BB3F-825B9F68D349}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MvcApi", "MvcApi", "{33E234E8-9104-40FD-9214-912F3F1027A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiSample", "MvcApi\ApiSample\ApiSample.csproj", "{8CEAFF6D-A883-42CB-AEAB-008D6A6D4506}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CallerSample", "MvcApi\CallerSample\CallerSample.csproj", "{B7DE2D38-1BB3-41DD-BB46-C1550AAC1AC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +24,17 @@ Global
 		{8A1E8031-9518-4AB3-BB3F-825B9F68D349}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A1E8031-9518-4AB3-BB3F-825B9F68D349}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A1E8031-9518-4AB3-BB3F-825B9F68D349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CEAFF6D-A883-42CB-AEAB-008D6A6D4506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CEAFF6D-A883-42CB-AEAB-008D6A6D4506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CEAFF6D-A883-42CB-AEAB-008D6A6D4506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CEAFF6D-A883-42CB-AEAB-008D6A6D4506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7DE2D38-1BB3-41DD-BB46-C1550AAC1AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7DE2D38-1BB3-41DD-BB46-C1550AAC1AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7DE2D38-1BB3-41DD-BB46-C1550AAC1AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7DE2D38-1BB3-41DD-BB46-C1550AAC1AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CEAFF6D-A883-42CB-AEAB-008D6A6D4506} = {33E234E8-9104-40FD-9214-912F3F1027A8}
+		{B7DE2D38-1BB3-41DD-BB46-C1550AAC1AC2} = {33E234E8-9104-40FD-9214-912F3F1027A8}
 	EndGlobalSection
 EndGlobal
