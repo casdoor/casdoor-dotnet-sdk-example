@@ -8,6 +8,10 @@ Here are Casdoor .NET SDK samples for **[casdoor-dotnet-sdk](https://github.com/
 | <a href="#MvcApp">MvcApp</a>         | .NET 6.0 or newer | Sample of a MVC webapp         |
 | <a href="#MvcApi">MvcApi</a>         | .NET 7.0 or newer | Sample of a MVC webapi         |
 
+## Demo Video
+
+![mvcapi1](docs/assets/MvcApi.gif)
+
 ## <a id="ConsoleApp">ConsoleApp</a>
 
 This sample simply shows how to use [Casdoor.Client](https://github.com/casdoor/casdoor-dotnet-sdk/tree/master/src/Casdoor.Client) package. It is an API client implementation for the Casdoor, used to call the Casdoor APIs.
@@ -156,10 +160,6 @@ token: {token.AccessToken}
 API Response:
 [{"date":"2023-08-09","temperatureC":-5,"temperatureF":24,"summary":"Warm"},{"date":"2023-08-10","temperatureC":6,"temperatureF":42,"summary":"Scorching"},{"date":"2023-08-11","temperatureC":45,"temperatureF":112,"summary":"Freezing"},{"date":"2023-08-12","temperatureC":29,"temperatureF":84,"summary":"Hot"},{"date":"2023-08-13","temperatureC":23,"temperatureF":73,"summary":"Mild"}]
 ```
-
-### Sample Video
-
-![mvcapi1](docs/assets/MvcApi.gif)
 
 ### Configure your Casdoor
 
