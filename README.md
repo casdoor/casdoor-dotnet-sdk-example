@@ -56,7 +56,7 @@ The meanings of some fields are explained as follows:
 | RequireHttpsMetadata | No   | Whether requires https for Casdoor endpoint.                 |
 | Scope                | No   | The scopes that the client is requesting.                    |
 
-For more information, refer to https://github.com/casdoor/casdoor-dotnet-sdk/blob/master/README.md.
+For more information, refer to https://github.com/casdoor/casdoor-dotnet-sdk/blob/master/README.md .
 
 ## <a id="MvcApp">MvcApp</a>
 
@@ -108,5 +108,4 @@ The meanings of some fields are explained as follows:
 
 In addition, some launch settings are placed in the `Properties/launchSettings.json` file, such as the listening URLs `http://localhost:5000;https://localhost:5001`, to facilitate your use of this sample. This file is not necessary.
 
-For more information, refer to https://github.com/casdoor/casdoor-dotnet-sdk/blob/master/README.md.
-
+For more information, refer to https://github.com/casdoor/casdoor-dotnet-sdk/blob/master/README.md .
