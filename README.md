@@ -8,6 +8,10 @@ Here are Casdoor .NET SDK samples for **[casdoor-dotnet-sdk](https://github.com/
 | <a href="#MvcApp">MvcApp</a>         | .NET 6.0 or newer | Sample of a MVC webapp         |
 | <a href="#MvcApi">MvcApi</a>         | .NET 7.0 or newer | Sample of a MVC webapi         |
 
+## Demo Video
+
+![mvcapi1](docs/assets/MvcApi.gif)
+
 ## <a id="ConsoleApp">ConsoleApp</a>
 
 This sample simply shows how to use [Casdoor.Client](https://github.com/casdoor/casdoor-dotnet-sdk/tree/master/src/Casdoor.Client) package. It is an API client implementation for the Casdoor, used to call the Casdoor APIs.
@@ -100,8 +104,8 @@ The meanings of some fields are explained as follows:
 | -------------------- | ---- | ------------------------------------------------------------ |
 | Endpoint             | Yes  | Your Casdoor host.                                           |
 | OrganizationName     | Yes  | The organization that the application belongs to.            |
-| ApplicationName      | Yes  | Your application name. Can be webapp or webapi.              |
-| ApplicationType      | Yes  | Your application type.                                       |
+| ApplicationName      | Yes  | Your application name.                                       |
+| ApplicationType      | Yes  | Your application type. Can be webapp or webapi.              |
 | ClientId             | Yes  | Your OAuth client id.                                        |
 | ClientSecret         | Yes  | Your OAuth client secret.                                    |
 | CallbackPath         | No   | The callback path that the client will be redirected to after the user has authenticated. Default is "/casdoor/signin-callback". |
