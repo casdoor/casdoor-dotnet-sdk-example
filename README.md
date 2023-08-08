@@ -100,7 +100,7 @@ The meanings of some fields are explained as follows:
 | -------------------- | ---- | ------------------------------------------------------------ |
 | Endpoint             | Yes  | Your Casdoor host.                                           |
 | OrganizationName     | Yes  | The organization that the application belongs to.            |
-| ApplicationName      | Yes  | Your application name.                                       |
+| ApplicationName      | Yes  | Your application name. Can be webapp or webapi.              |
 | ApplicationType      | Yes  | Your application type.                                       |
 | ClientId             | Yes  | Your OAuth client id.                                        |
 | ClientSecret         | Yes  | Your OAuth client secret.                                    |
