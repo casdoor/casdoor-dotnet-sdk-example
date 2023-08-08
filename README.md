@@ -100,8 +100,8 @@ The meanings of some fields are explained as follows:
 | -------------------- | ---- | ------------------------------------------------------------ |
 | Endpoint             | Yes  | Your Casdoor host.                                           |
 | OrganizationName     | Yes  | The organization that the application belongs to.            |
-| ApplicationName      | Yes  | Your application name. Can be webapp or webapi.              |
-| ApplicationType      | Yes  | Your application type.                                       |
+| ApplicationName      | Yes  | Your application name.                                       |
+| ApplicationType      | Yes  | Your application type. Can be webapp or webapi.              |
 | ClientId             | Yes  | Your OAuth client id.                                        |
 | ClientSecret         | Yes  | Your OAuth client secret.                                    |
 | CallbackPath         | No   | The callback path that the client will be redirected to after the user has authenticated. Default is "/casdoor/signin-callback". |
@@ -156,6 +156,10 @@ token: {token.AccessToken}
 API Response:
 [{"date":"2023-08-09","temperatureC":-5,"temperatureF":24,"summary":"Warm"},{"date":"2023-08-10","temperatureC":6,"temperatureF":42,"summary":"Scorching"},{"date":"2023-08-11","temperatureC":45,"temperatureF":112,"summary":"Freezing"},{"date":"2023-08-12","temperatureC":29,"temperatureF":84,"summary":"Hot"},{"date":"2023-08-13","temperatureC":23,"temperatureF":73,"summary":"Mild"}]
 ```
+
+### Sample Video
+
+![mvcapi1](docs/assets/MvcApi.gif)
 
 ### Configure your Casdoor
 
